@@ -1,0 +1,36 @@
+{
+  "name": "tut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node index4.js",
+    "dev":"nodemon index4.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunnyvk/nodejs.git"
+  },
+  "keywords": [
+    "sk"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunnyvk/nodejs/issues"
+  },
+  "homepage": "https://github.com/sunnyvk/nodejs#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.0",
+    "simple-node-logger": "^21.8.12"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
